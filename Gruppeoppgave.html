@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <audio src="World of Warcraft - Sound of Stormwind.mp3" controls> Your browser
+        does not support the audio element. </audio>
+
+    <div id="invContainer">
+
+        <div id="vendor" class="vendor">VENDOR
+            <p class="foodBuff"><button onclick="buyFood('food')" style="font-weight: bold;"> BUY FOOD</button></p>
+            <p class="foodBuff"><button onclick="buyFood('drink')" style="font-weight: bold;"> BUY DRINK</button>
+            <div style="text-align: left; margin-top: 241px; font-weight: bold;"><button onclick="hideVendor()"
+                    style="font-weight: bold;">HIDE VENDOR</button></div>
+        </div>
+
+        <div id="inventory" class="inv">INVENTORY
+
+
+            <div id="foodBuffAmount">Mat: 0 <br> Drikke: 0 </div>
+            </p>
+            <div class="foodBuff"><button onclick="sellFood('food')" style="font-weight: bold;">SELL FOOD</button></div>
+            <br>
+            <div class="foodBuff"><button onclick="sellFood('drink')" style="font-weight: bold;">SELL DRINK</button>
+            </div>
+            <div style="text-align: left; margin-top: 184px;"><button onclick="hideInventory()"
+                    style="font-weight: bold;">HIDE INVENTORY</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <button onclick="showVendor()" style="font-weight: bold;">SHOW VENDOR</button>
+    <button onclick="showInventory()" style="font-weight: bold;">SHOW INVENTORY</button>
+
+</body>
+
+</html>

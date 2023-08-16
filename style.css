@@ -1,0 +1,32 @@
+.inv {
+
+    font-size: x-large;
+    height: 100px;
+    text-align: center;
+    border: 2px solid gray;
+    width: 50%;
+    float: left;
+    height: 400px;
+
+}
+.vendor {
+
+    font-size: x-large;
+    height: 100px;
+    text-align: center;
+    border: 2px solid gray;
+    width: 50%;
+    float: left;
+    height: 400px;
+
+}
+
+#invContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.foodBuff {
+    text-align: left;
+}
