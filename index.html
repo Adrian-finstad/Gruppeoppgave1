@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 
+    <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
 
     <script src="script.js"></script>
 </head>
@@ -14,14 +15,18 @@
 <body>
     <audio src="World of Warcraft - Sound of Stormwind.mp3" controls> Your browser
         does not support the audio element. </audio>
-
+    <header class="headerstroke">
+        <h1>WELCOME TO STORMWIND INNKEEPER<h1>
+    </header>
     <div id="invContainer">
 
         <div id="vendor" class="vendor">VENDOR
-            <p class="foodBuff"><button onclick="buyFood('food')" style="font-weight: bold;"> BUY FOOD</button></p>
-            <p class="foodBuff"><button onclick="buyFood('drink')" style="font-weight: bold;"> BUY DRINK</button>
-            <div style="text-align: left; margin-top: 241px; font-weight: bold;"><button onclick="hideVendor()"
-                    style="font-weight: bold;">HIDE VENDOR</button></div>
+
+            <p class="foodBuff"><br /><br /><button onclick="buyFood('food')" class="buttons"> BUY
+                    FOOD</button></p>
+            <p class="foodBuff"><button onclick="buyFood('drink')" class="buttons"> BUY DRINK</button>
+            <div style="text-align: left; margin-top: 190px; font-weight: bold;"><button onclick="hideVendor()"
+                    class="buttons">HIDE VENDOR</button></div>
         </div>
 
         <div id="inventory" class="inv">INVENTORY
@@ -29,18 +34,18 @@
 
             <div id="foodBuffAmount">Mat: 0 <br> Drikke: 0 </div>
             </p>
-            <div class="foodBuff"><button onclick="sellFood('food')" style="font-weight: bold;">SELL FOOD</button></div>
+            <div class="foodBuff"><button onclick="sellFood('food')" class="buttons">SELL FOOD</div>
             <br>
-            <div class="foodBuff"><button onclick="sellFood('drink')" style="font-weight: bold;">SELL DRINK</button>
+            <div class="foodBuff"><button onclick="sellFood('drink')" class="buttons">SELL DRINK</button>
             </div>
-            <div style="text-align: left; margin-top: 184px;"><button onclick="hideInventory()"
-                    style="font-weight: bold;">HIDE INVENTORY</button>
+            <div style="text-align: left; margin-top: 187px;"><button onclick="hideInventory()" class="buttons">HIDE
+                    INVENTORY</button>
             </div>
         </div>
     </div>
     <br>
-    <button onclick="showVendor()" style="font-weight: bold;">SHOW VENDOR</button>
-    <button onclick="showInventory()" style="font-weight: bold;">SHOW INVENTORY</button>
+    <button onclick="showVendor()" class="buttons">SHOW VENDOR</button>
+    <button onclick="showInventory()" class="buttons">SHOW INVENTORY</button>
 
 </body>
 
