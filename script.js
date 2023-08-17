@@ -15,8 +15,8 @@ function buyFood(item) {
     console.log('du kjøpte noe')
     
     document.getElementById('foodBuffAmount').innerHTML = `
-    Mat: ${currentFood} <br>
-    Drikke: ${currentDrink} <br>
+    Food: ${currentFood} <br>
+    Drink: ${currentDrink} <br>
 
     `
 
@@ -32,8 +32,8 @@ if (item == 'drink' && currentDrink > 0) {
         document.getElementById('foodBuffAmount').innerHTML = currentDrink;
 } 
     document.getElementById('foodBuffAmount').innerHTML = `
-    Mat: ${currentFood} <br>
-    Drikke: ${currentDrink} <br>
+    Food: ${currentFood} <br>
+    Drink: ${currentDrink} <br>
 
     `  
  }
